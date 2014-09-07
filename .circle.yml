@@ -1,0 +1,9 @@
+dependencies:
+  pre:
+    - bundle install:
+        timeout: 600
+
+test:
+  post:
+    - bundle exec roadwork --dry-run --apply
+
