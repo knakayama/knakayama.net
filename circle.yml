@@ -7,3 +7,9 @@ test:
   post:
     - bundle exec roadwork --dry-run --apply
 
+deployment:
+  master:
+    branch: master
+    commands:
+      - bundle exec roadwork --apply
+
