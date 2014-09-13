@@ -1,9 +1,9 @@
 # Export Route53
 hosted_zone "knakayama.net." do
-  rrset "watcher.knakayama.net.", "A" do
+  rrset "zabbix.knakayama.net.", "A" do
     ttl 300
     resource_records(
-      "54.64.67.65"
+      "54.64.52.51"
     )
   end
   rrset "chef.knakayama.net", "A" do
