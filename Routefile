@@ -9,7 +9,7 @@ hosted_zone "knakayama.net." do
   rrset "chef.knakayama.net", "A" do
     ttl 300
     resource_records(
-      "54.64.54.144"
+      "54.64.60.29"
     )
   end
   rrset "app.knakayama.net", "A" do
