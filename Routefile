@@ -12,11 +12,5 @@ hosted_zone "knakayama.net." do
       "54.64.60.29"
     )
   end
-  rrset "app.knakayama.net", "A" do
-    ttl 300
-    resource_records(
-      "54.64.76.173"
-    )
-  end
 end
 
